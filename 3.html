@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, [Partner's Name]</title>
+    <style>
+        body {
+            background-color: #fff5e1;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #f4a300;
+            font-size: 3em;
+        }
+        .sun {
+            position: relative;
+            width: 150px;
+            height: 150px;
+            background-color: #f4a300;
+            border-radius: 50%;
+            margin: 50px auto;
+            animation: spin 4s infinite linear;
+        }
+        .sun:before {
+            content: '';
+            position: absolute;
+            top: -50px;
+            left: 50%;
+            width: 10px;
+            height: 50px;
+            background-color: #f4a300;
+            transform-origin: center;
+            animation: sunbeam 2s infinite ease-in-out;
+        }
+        .sun:after {
+            content: '';
+            position: absolute;
+            top: -50px;
+            right: 50%;
+            width: 10px;
+            height: 50px;
+            background-color: #f4a300;
+            transform-origin: center;
+            animation: sunbeam 2s infinite ease-in-out 1s;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        @keyframes sunbeam {
+            0%, 100% { transform: scaleY(1); }
+            50% { transform: scaleY(1.5); }
+        }
+        .message {
+            font-size: 1.5em;
+            color: #f4a300;
+            font-weight: bold;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Happy Birthday, [Partner's Name]!</h1>
+    <div class="sun"></div>
+    <p class="message">You are my sunshine, lighting up my world every day. 🌞</p>
+
+</body>
+</html>
