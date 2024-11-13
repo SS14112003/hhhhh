@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, [Partner's Name]</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #dcedc8;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 3em;
+            color: #388e3c;
+        }
+        .flowers {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+        .flower {
+            width: 60px;
+            height: 60px;
+            background-color: #ff4081;
+            border-radius: 50%;
+            margin: 10px;
+            animation: bloom 2s ease-in-out infinite;
+        }
+        .flower:nth-child(odd) {
+            animation-duration: 2.5s;
+            animation-delay: 1s;
+        }
+        .message {
+            font-size: 1.5em;
+            color: #388e3c;
+            margin-top: 30px;
+        }
+        @keyframes bloom {
+            0% { transform: scale(0); }
+            50% { transform: scale(1.5); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Happy Birthday, [Partner's Name]</h1>
+    <p class="message">Every moment with you feels like blooming flowers in my heart 🌸</p>
+
+    <div class="flowers">
+        <div class="flower"></div>
+        <div class="flower"></div>
+        <div class="flower"></div>
+        <div class="flower"></div>
+    </div>
+
+</body>
+</html>
