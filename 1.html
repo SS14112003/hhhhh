@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, [Partner's Name]</title>
+    <style>
+        body {
+            background-color: #ffe0f0;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 50px;
+            position: relative;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 3em;
+            color: #ff4081;
+            margin-bottom: 20px;
+        }
+        .heart {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: #ff4081;
+            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+            animation: float 5s infinite ease-in-out;
+            opacity: 0.7;
+        }
+        @keyframes float {
+            0% { transform: translateY(100vh); }
+            50% { transform: translateY(-100vh); }
+            100% { transform: translateY(100vh); }
+        }
+        .message {
+            font-size: 1.5em;
+            color: #ff0066;
+            margin-top: 30px;
+            font-weight: bold;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 16px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Happy Birthday, [Partner's Name]!</h1>
+    <p class="message">You are the love of my life. I am so grateful to have you by my side! 💖</p>
+
+    <!-- Random floating hearts -->
+    <div class="heart" style="left: 10%; animation-duration: 6s;"></div>
+    <div class="heart" style="left: 30%; animation-duration: 7s;"></div>
+    <div class="heart" style="left: 50%; animation-duration: 8s;"></div>
+    <div class="heart" style="left: 70%; animation-duration: 5s;"></div>
+    <div class="heart" style="left: 90%; animation-duration: 6s;"></div>
+
+    <footer>Created with love by [Your Name]</footer>
+
+</body>
+</html>
